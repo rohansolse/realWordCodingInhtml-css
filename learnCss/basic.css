@@ -1,0 +1,31 @@
+h1 {
+    font-weight: 100;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+p {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+span {
+    color: hotpink;
+}
+
+article p {
+    color: green;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+.highlight {
+    background-color: greenyellow;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer .highlight {
+    background-color: grey;
+}
