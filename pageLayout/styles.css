@@ -79,7 +79,47 @@ table tbody tr:nth-child(odd) {
     background-color: red;
 }
 
+form {
+    background-color: #ececec;
+    padding: 30px 40px;
+}
 
+.hidden-label {
+    position: absolute;
+    visibility: hidden;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+}
+
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    display: block;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 0 10px;
+    margin-bottom: 9px;
+    border: 1px solid grey;
+}
+
+
+input[type="submit"] {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    background-color: goldenrod;
+    padding: 10px 0;
+    height: 40px;
+    margin-bottom: 9px;
+    border-radius: 5px;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border: 1px solid green;
+}
 
 table th {
     background-color: grey;
