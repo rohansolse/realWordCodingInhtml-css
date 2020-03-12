@@ -180,10 +180,35 @@ header p {
 	}
 	
 }
+.thumbnails{
+	margin-right: -15px;
+}
 
+.thumbnails a{
+	float: left;
+	width: 25%;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	box-sizing: border-box;
+}
 
+.thumbnails img{
+	display: block;
+	border-radius: 50%;
+	transition: all 0.3s ease-in-out;
+}
 
+.thumbnails:hover img{
+	opacity: 0.6;
+	transform: scale(0.94);
 
+}
+
+.thumbnails img:hover{
+	transform: rotate(3deg);
+	opacity: 1;
+	border-radius: 10px;
+}
 
 
 /* Grid */
